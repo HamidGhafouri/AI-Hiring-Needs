@@ -169,7 +169,7 @@ const typeSt = {
 };
 
 // ─── MAIN APP ─────────────────────────────────────────────────────────────────
-export default function CapacityIQ() {
+export default function App() {
     const [tab, setTab] = useState("dashboard");
     const [growthRate, setGrowthRate] = useState(12);
     const [aiLevel, setAiLevel] = useState(0);
